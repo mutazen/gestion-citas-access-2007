@@ -30,7 +30,7 @@
   <summary>Índice</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Acerca del proyecto</a>
+      <a href="#acerca-del-proyecto">Acerca del proyecto</a>
     </li>
     <li>
       <a href="#getting-started">Preparando la aplicación</a>
@@ -149,11 +149,14 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Sobre el proyecto 
+## Acerca del proyecto 
 
 ![Product Main Screen Shot][product-screenshot]
 
-El objectivo de esta aplicación de gestión de citas es que, utilizando solamente la distribucion de Access 2007, se pueda crear una aplicación que permita gestionar la citas de una pequeña oficina o empresa que se divida en varias áreas y en donde se pueda trabajar de forma distribuida, es decir, que varias personas trabajen con la aplicación al mismo tiempo. 
+El objectivo de este proyecto es que, utilizando solamente la distribucion de Access 2007 de Microsoft Office, crear una solución de Access que permita gestionar las citas de una pequeña oficina o empresa, dando servicio a todos los departamentos que pueda tener. Además debe permitir que se pueda trabajar de forma distribuida, es decir, que varias personas trabajen con la solución al mismo tiempo.
+
+
+
 
 To accomplish our objective, this website is able to:
 * Search cocktail by name, type, category or ingredient.
@@ -490,7 +493,7 @@ We want to thank to @othneildrew for share their template for this readme.
 [license-url]: https://github.com/mutazen/gestion-citas-access-2007/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jeremycamacholugo/
-[product-screenshot]: src/assets/screenshot.jpg
+[product-screenshot]: readme-images/image-1.png
 [screenshot-search-name1]: readme-images/screenshot-search-name1.jpg
 [screenshot-search-name2]: readme-images/screenshot-search-name2.jpg
 [screenshot-search-type1]: readme-images/screenshot-search-type1.jpg
