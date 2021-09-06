@@ -10,20 +10,16 @@
 <br />
 <p align="center">
   <a href="https://github.com/mutazen/Your-cocktail">
-    <img src="src/assets/logo-2.png" alt="Logo" width="450" height="200">
+    <img src="readme-images/logo.png" alt="Logo" width="500" height="350">
   </a>
 
   <p align="center">
-    The place where you can find the drink of your dreams
-    <br />
-    <a href="https://https://github.com/mutazen/Your-cocktail"><strong>Explore the docs »</strong></a>
+    <a href="https://https://github.com/mutazen/Your-cocktail"><strong>Ver documentación»</strong></a>
     <br />
     <br />
-    <a href="https://mutazen.github.io/Your-cocktail">View Demo</a>
+    <a href="https://github.com/mutazen/Your-cocktail/issues">Reportar Bug</a>
     ·
-    <a href="https://github.com/mutazen/Your-cocktail/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/mutazen/Your-cocktail/issues">Request Feature</a>
+    <a href="https://github.com/mutazen/Your-cocktail/issues">Solicitar nueva funcionalidad</a>
   </p>
 </p>
 
@@ -31,31 +27,50 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Índice</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Acerca del proyecto</a>
+    </li>
+    <li>
+      <a href="#getting-started">Preparando la aplicación</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li>
+          <a href="#installation">Instalación</a>
+        </li>
+        <li>
+          <a href="#installation">Configuración</a>
+        </li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#usage">Usage</a>
+      <a href="#usage">Guía de uso</a>
       <ul>
         <li>
-          <a href="#search-cocktail-by-name">Search cocktails by name</a>
+          <a href="#search-cocktail-by-name">Ver citas</a>
+          <ul>
+            <li>
+              <a href="#installation">Ver citas de un día en concreto</a>
+            </li>
+            <li>
+              <a href="#installation">Ver citas de la semana anterior o posterior</a>
+            </li>
+            <li>
+              <a href="#installation">Ver citas del mes anterior o posterior</a>
+            </li>
+          </ul>
         </li>
         <li>
-          <a href="#search-cocktail-by-type">Search cocktails by type</a>
+          <a href="#search-cocktail-by-name">Crear cita</a>
         </li>
         <li>
-          <a href="#search-cocktail-by-category">Search cocktails by category</a>
+          <a href="#search-cocktail-by-name">Modificar cita</a>
+        </li>
+        <li>
+          <a href="#search-cocktail-by-type">Eliminar cita</a>
+        </li>
+        <li>
+          <a href="#search-cocktail-by-category">Copiar cita</a>
         </li>
         <li>
           <a href="#search-cocktail-by-ingredient">Search cocktails by ingredient</a>
