@@ -149,11 +149,11 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre el proyecto 
 
 ![Product Main Screen Shot][product-screenshot]
 
-In simple words, we want to help everyone to find their favorite cocktail. In order to do that, we have developed this website to give them a way to search information about drinks based on their features. In an easy, simple and intuitive way.
+El objectivo de esta aplicación de gestión de citas es que, utilizando solamente la distribucion de Access 2007, se pueda crear una aplicación que permita gestionar la citas de una pequeña oficina o empresa que se divida en varias áreas y en donde se pueda trabajar de forma distribuida, es decir, que varias personas trabajen con la aplicación al mismo tiempo. 
 
 To accomplish our objective, this website is able to:
 * Search cocktail by name, type, category or ingredient.
