@@ -73,25 +73,67 @@
           <a href="#search-cocktail-by-category">Copiar cita</a>
         </li>
         <li>
-          <a href="#search-cocktail-by-ingredient">Search cocktails by ingredient</a>
+          <a href="#search-cocktail-by-ingredient">Buscar cita</a>
+          <ul>
+            <li>
+              <a href="#installation">Buscar por nombre</a>
+            </li>
+            <li>
+              <a href="#installation">Buscar por apellidos</a>
+            </li>
+            <li>
+              <a href="#installation">Buscar por DNI</a>
+            </li>
+            <li>
+              <a href="#installation">Buscar por NIE</a>
+            </li>
+            <li>
+              <a href="#installation">Buscar por pasaporte</a>
+            </li>
+            <li>
+              <a href="#installation">Buscar por teléfono</a>
+            </li>
+            <li>
+              <a href="#installation">Buscar por fecha</a>
+            </li>
+          </ul>
         </li>
         <li>
-          <a href="#filter-results-by-type">Filter results by type</a>
+          <a href="#filter-results-by-type">Asignar asistencia</a>
         </li>
         <li>
-          <a href="#filter-results-by-category">Filter results by category</a>
+          <a href="#filter-results-by-category">Designar dia</a>
+          <ul>
+            <li>
+              <a href="#installation">Designar dia para atender citas</a>
+            </li>
+            <li>
+              <a href="#installation">Designar dia como festivo</a>
+            </li>
+            <li>
+              <a href="#installation">Eliminar designación</a>
+            </li>
+          </ul>
         </li>
         <li>
-          <a href="#filter-results-by-ingredient">Filter results by ingredient</a>
+          <a href="#filter-results-by-ingredient">Reservar hora</a>
+          <ul>
+            <li>
+              <a href="#installation">Crear reserva</a>
+            </li>
+            <li>
+              <a href="#installation">Ver reserva</a>
+            </li>
+            <li>
+              <a href="#installation">Modificar reserva</a>
+            </li>
+            <li>
+              <a href="#installation">Eliminar reserva</a>
+            </li>
+          </ul>
         </li>
         <li>
-          <a href="#show-cocktail-information">Show cocktail information</a>
-        </li>
-        <li>
-          <a href="#show-ingredient-information">Show ingredient information</a>
-        </li>
-        <li>
-          <a href="#adapted-to-small-devices">Adapted to small devices</a>
+          <a href="#show-cocktail-information">Imprimir ficha de gestión de citas</a>
         </li>
       </ul>
     </li>
