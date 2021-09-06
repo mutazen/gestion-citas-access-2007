@@ -95,12 +95,12 @@
         </li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#special-thanks">Special Thanks</a></li>
+    <li><a href="#roadmap">Cronología</a></li>
+    <li><a href="#contributing">Contribuciones</a></li>
+    <li><a href="#license">Licencia</a></li>
+    <li><a href="#contact">Contacto</a></li>
+    <li><a href="#acknowledgements">Conocimientos</a></li>
+    <li><a href="#special-thanks">Agradecimientos</a></li>
   </ol>
 </details>
 
