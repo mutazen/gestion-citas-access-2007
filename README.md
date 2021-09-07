@@ -160,9 +160,9 @@ Este proyecto surge para dar respuesta a esta problemática de una ONG en partic
 ![Product Main Screen Shot][product-screenshot]
 
 Para cumplir con su objectivo, esta solución es capaz de:
-* .
-* Filter search results by cocktail type, category or ingredient.
-* Show information about cocktails features, their preparation instructions and their ingredients.
+* Gestionar los datos de contacto de los usuarios.
+* Gestionar las horas y los dias en los que se pueden concertar citas.
+* Llevar a cabo un seguimiento de la asistencia de los usuarios a las citas.
 * Give ingredients details like a short description, type, if they have alcohol and alcohol by volume percentage.
 * Be displayed in any device. 
 
