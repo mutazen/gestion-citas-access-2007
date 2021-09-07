@@ -150,9 +150,18 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Acerca del proyecto 
-El objectivo de este proyecto es que, utilizando solamente la distribucion de Access 2007 de Microsoft Office, crear una solución de Access que permita gestionar las citas de una pequeña oficina o empresa, dando servicio a todos los departamentos que pueda tener. Además debe permitir que se pueda trabajar de forma distribuida, es decir, que varias personas trabajen con la solución al mismo tiempo.
+
+Conforme pasa el tiempo, queda más claro que las empresas deben digitalizar las herramientas que utilizan en el desarrollo de su actividad si quieren mejorar la calidad del servicio que proporcionan. No obstante, para las empresas más pequeñas, el costo de la adquisión del software y de la infraestructura de red que necesitan es inasumible.
+
+Un ejemplo de empresa que se enfrenta a esta problemática son las ONG más pequeñas, cuyos recursos son escasos como invertir en nuevo software y el software y la infraestructura de red    
+
+Este proyecto surge para dar respuesta a esta problemática, centrándose en la gestión de citas con los clientes, actividad que realizan la mayoría de las pequeñas empresas y que se beneficia ampliamente de la digitalización.
 
 ![Product Main Screen Shot][product-screenshot]
+
+El objectivo de este proyecto es el desarrollar una solución en Microsoft Access 2007 que permita gestionar las citas que una empresa concierte con sus clientes y controlar la asistencia a dichas citas.
+
+
 
 To accomplish our objective, this website is able to:
 * Search cocktail by name, type, category or ingredient.
