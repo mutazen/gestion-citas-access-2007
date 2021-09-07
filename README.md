@@ -153,18 +153,14 @@
 
 Conforme pasa el tiempo, queda más claro que las empresas deben digitalizar las herramientas que utilizan en el desarrollo de su actividad si quieren mejorar la calidad del servicio que proporcionan. No obstante, para las empresas más pequeñas, el costo de la adquisión del software y de la infraestructura de red que necesitan es inasumible.
 
-Un ejemplo de empresa que se enfrenta a esta problemática son las ONG más pequeñas, cuyos recursos son escasos como invertir en nuevo software y el software y la infraestructura de red    
+Un ejemplo de empresa que se enfrenta a este tipo de problemas son las ONG más pequeñas, las cuales no cuentan con los recursos necesarios para poder digitalizar convenientemente los procesos que realizan en el desarrollo de su actividad. Y que en muchos casos, la infraestructura técnologica con la cuentan está desfasada.
 
-Este proyecto surge para dar respuesta a esta problemática, centrándose en la gestión de citas con los clientes, actividad que realizan la mayoría de las pequeñas empresas y que se beneficia ampliamente de la digitalización.
+Este proyecto surge para dar respuesta a esta problemática de una ONG en particular, desarrollando una solución para gestionar las citas de los usuarios adaptada al software y a la estructura de red disponible.
 
 ![Product Main Screen Shot][product-screenshot]
 
-El objectivo de este proyecto es el desarrollar una solución en Microsoft Access 2007 que permita gestionar las citas que una empresa concierte con sus clientes y controlar la asistencia a dichas citas.
-
-
-
-To accomplish our objective, this website is able to:
-* Search cocktail by name, type, category or ingredient.
+Para cumplir con su objectivo, esta solución es capaz de:
+* .
 * Filter search results by cocktail type, category or ingredient.
 * Show information about cocktails features, their preparation instructions and their ingredients.
 * Give ingredients details like a short description, type, if they have alcohol and alcohol by volume percentage.
