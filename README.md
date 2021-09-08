@@ -9,17 +9,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/mutazen/Your-cocktail">
+  <a href="https://github.com/mutazen/gestion-citas-access-2007">
     <img src="readme-images/logo.png" alt="Logo" width="500" height="350">
   </a>
 
   <p align="center">
-    <a href="https://https://github.com/mutazen/Your-cocktail"><strong>Ver documentación»</strong></a>
+    <a href="https://https://github.com/mutazen/gestion-citas-access-2007"><strong>Ver documentación»</strong></a>
     <br />
     <br />
-    <a href="https://github.com/mutazen/Your-cocktail/issues">Reportar Bug</a>
+    <a href="https://github.com/mutazen/gestion-citas-access-2007/issues">Reportar Bug</a>
     ·
-    <a href="https://github.com/mutazen/Your-cocktail/issues">Solicitar nueva funcionalidad</a>
+    <a href="https://github.com/mutazen/gestion-citas-access-2007/issues">Solicitar nueva funcionalidad</a>
   </p>
 </p>
 
@@ -31,20 +31,31 @@
   <ol>
     <li>
       <a href="#acerca-del-proyecto">Acerca del proyecto</a>
-    </li>
-    <li>
-      <a href="#getting-started">Preparando la aplicación</a>
       <ul>
         <li>
-          <a href="#installation">Instalación</a>
+          <a href="#restricciones-iniciales">Restricciones iniciales</a>
         </li>
         <li>
-          <a href="#installation">Configuración</a>
+          <a href="#características">Características</a>
         </li>
       </ul>
     </li>
     <li>
-      <a href="#usage">Guía de uso</a>
+      <a href="#preparando-la-aplicación">Preparando la aplicación</a>
+      <ul>
+        <li>
+          <a href="#requisitos">Requisitos</a>
+        </li>
+        <li>
+          <a href="#instalación">Instalación</a>
+        </li>
+        <li>
+          <a href="#configuración">Configuración</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#guía-de-uso">Guía de uso</a>
       <ul>
         <li>
           <a href="#search-cocktail-by-name">Ver citas</a>
@@ -159,48 +170,45 @@ Este proyecto surge para dar respuesta a esta problemática de una ONG en partic
 
 ![Product Main Screen Shot][product-screenshot]
 
+### Restricciones iniciales.
+
+A la hora de desarrollar este proyecto se contaba con las siguientes restricciones:
+* Utilizar software y la infraestructura tecnológica existente. 
+ 
+En este caso, se decidió emplear Microsoft Access 2007 porque estaba presente en todos los equipos de la empresa y su implantación no implicaba excesiva modificación de la configuración de los equipos existente, que consistía en varios equipos de trabajo conectados en la misma red LAN.
+
+* Se debe poder trabajar con la solución desde varios equipos de la red y al mismo tiempo.
+
+Para poder permitir el trabajo simúltaneo, se controlan cuando los usuarios crean o modifican citas. Bloqueándo la hora en la que se asigna una cita durante su creación para que otros usuarios no puedan crear otra nueva. Y bloqueando el acceso a los datos de la cita, cuando otro usuario está modificando sus datos. 
+
+### Características.
+
 Para cumplir con su objectivo, esta solución es capaz de:
 * Gestionar los datos de contacto de los usuarios.
 * Gestionar las horas y los dias en los que se pueden concertar citas.
-* Llevar a cabo un seguimiento de la asistencia de los usuarios a las citas.
-* Give ingredients details like a short description, type, if they have alcohol and alcohol by volume percentage.
-* Be displayed in any device. 
-
-We use TheCocktailDB's API as a source of information for this web site. Thanks to them, we are able to offer information about different cocktails and search based on their features.
-<p align="center">
-  <a href="https://www.thecocktaildb.com/api.php">https://www.thecocktaildb.com</a>
-</p>
-
-### Built With
-
-* [Bootstrap](https://getbootstrap.com)
-* [Vue.js](https://vuejs.org/)
-* [Node.js](https://nodejs.org/es/)
-
+* Llevar el control de la asistencia de los usuarios a sus respectivas citas.
+* Asegurarse que los datos tengan el formato adecuado, controlando la entrada de datos cuando es posible.
+* Buscar citas en función de los datos de la cita.
 
 <!-- GETTING STARTED -->
-## Getting Started
-### Installation
+## Preparando la aplicación
+### Requisitos
+Tener instalado Microsoft Access 2007. No funciona con versiones posteriores de Access.
 
-1. Clone the repo
+### Instalación
+
+1. Clona el repositorio.
    ```sh
-   git clone https://github.com/mutazen/Your-cocktail.git
+   git clone https://github.com/mutazen/gestion-citas-access-2007.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Change node version if it is necesary
-   ```sh
-   nvm use 14.7
-   ```
-4. Compile for development
-   ```sh
-   npm run serve
-   ```
+2. Ejecuta Citas.accdb
+
+### Configuración
+
+
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Guía de uso
 We have a demo if you want to follow the instructions below. <a href="https://mutazen.github.io/Your-cocktail">View Demo</a>
 ### Search cocktail by name
 <p>
