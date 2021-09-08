@@ -184,8 +184,8 @@ Para poder permitir el trabajo simúltaneo, se controlan cuando los usuarios cre
 ### Características.
 
 Para cumplir con su objectivo, esta solución es capaz de:
-* Gestionar los datos de contacto de los usuarios.
-* Gestionar las horas y los dias en los que se pueden concertar citas.
+* Gestionar los datos de la citas: información personal de los usuarios, datos de contacto y anotaciones.
+* Gestionar las horas y los dias en los que se pueden concertar citas y para que áreas.
 * Llevar el control de la asistencia de los usuarios a sus respectivas citas.
 * Asegurarse que los datos tengan el formato adecuado, controlando la entrada de datos cuando es posible.
 * Buscar citas en función de los datos de la cita.
@@ -205,7 +205,12 @@ Tener instalado Microsoft Access 2007. No funciona con versiones posteriores de 
 
 ### Configuración
 
-Antes 
+Antes de abrir el ejecutable de este proyecto, es preciso añadir al centro de confianza de Access la ubicación desde donde se va ejecutar dicho archivo. Con esto se evita que se muestre cada vez que se acceda a la solución. A continuación se describe como realizar esta configuración.
+
+1. Abrimos Access 2007 directamente o hacemos abrimos un archivo de access mientras pulsamos la tecla "Shift". En pantalla principal de Access, hacemos clic en el logo de Office de la parte superior izquierda de la pantalla y en la nueva pantalla, accemos clic en el botón "Opciones de Access".
+
+![configuracion 1][configuracion-1]
+
 
 
 
@@ -507,7 +512,7 @@ We want to thank to @othneildrew for share their template for this readme.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jeremycamacholugo/
 [product-screenshot]: readme-images/image-1.png
-[screenshot-search-name1]: readme-images/screenshot-search-name1.jpg
+[configuracion-1]: readme-images/configuracion-1.jpg
 [screenshot-search-name2]: readme-images/screenshot-search-name2.jpg
 [screenshot-search-type1]: readme-images/screenshot-search-type1.jpg
 [screenshot-search-type2]: readme-images/screenshot-search-type2.jpg
