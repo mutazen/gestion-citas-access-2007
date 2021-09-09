@@ -209,12 +209,15 @@ Antes de abrir el ejecutable de este proyecto, es preciso añadir al centro de c
 
 1. Abrimos Access 2007 directamente o hacemos abrimos un archivo de access mientras pulsamos la tecla "Shift". En pantalla principal de Access, hacemos clic en el logo de Office de la parte superior izquierda de la pantalla y en la nueva pantalla, accemos clic en el botón "Opciones de Access".
 
-![configuracion 1][configuracion-1]
+![acceder a configuracion de access][configuracion-1]
 
+2. En la nueva pantalla, seleccionamos la opción "Centro de confianza" de la parte izquierda de la pantalla y en la parte derecha, hacemos clic en el botón "Configuración del Centro de Confianza".
+ 
+![acceder a configuracion del centro de confianza][configuracion-2]
 
+3. En este otra pantalla, pinchamos en "Ubicaciones de confiaza" en la columna de la parte izquierda de la pantalla y en la parte derecha, comprobamos si ya está registrada el directorio desde donde ejecutaremos el proyecto. En caso negativo, podemos agregar la el directorio haciendo clic en el botón "Agregar nueva ubicación ...". Si se quiere ejecutar el archivo desde otro ordenador, es necesario marcar la opción "Permitir ubicaciones de confianza que están en red" y después agregar la ubicación del directorio en red. 
 
-
-
+![agragar ubicacion del directorio del proyecto][configuracion-3]
 
 <!-- USAGE EXAMPLES -->
 ## Guía de uso
@@ -512,8 +515,9 @@ We want to thank to @othneildrew for share their template for this readme.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jeremycamacholugo/
 [product-screenshot]: readme-images/image-1.png
-[configuracion-1]: readme-images/configuracion-1.jpg
-[screenshot-search-name2]: readme-images/screenshot-search-name2.jpg
+[configuracion-1]: readme-images/configuracion/configuracion-1.png
+[configuracion-2]: readme-images/configuracion/configuracion-2.png
+[configuracion-3]: readme-images/configuracion/configuracion-3.png
 [screenshot-search-type1]: readme-images/screenshot-search-type1.jpg
 [screenshot-search-type2]: readme-images/screenshot-search-type2.jpg
 [screenshot-search-type3]: readme-images/screenshot-search-type3.jpg
