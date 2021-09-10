@@ -244,9 +244,9 @@ Si seleccionamos el mes y el año en los controles descritos anteriormente, el c
 
 ![modificar controles de calendariol][ver-cita-4]
 
-#### Ver citas semana anterior o posterior
+#### Ver citas de la semana anterior o posterior
 
-#### Ver citas mes anterior o posterior
+#### Ver citas del mes anterior o posterior
 
 #### Ver citas de una area determinada
 
@@ -268,32 +268,56 @@ Si seleccionamos el mes y el año en los controles descritos anteriormente, el c
 
 #### Buscar por teléfono
 
-<!-- ROADMAP -->
-## Roadmap
+#### Buscar por fecha
 
-See the [open issues](https://github.com/mutazen/gestion-citas-access-2007/issues) for a list of proposed features (and known issues).
+### Asignar asistencia
+
+### Designar dia
+
+#### Designar dia para atender citas
+
+#### Designar dia como festivo
+
+#### Elimnar designación
+
+### Reserva hora
+
+#### Crear reserva
+
+#### Ver reserva
+
+#### Modificar reserva
+
+#### Eliminar reserva
+
+### Imprimir ficha de gestión de citas
+
+<!-- ROADMAP -->
+## Cronología
+
+Vea [open issues](https://github.com/mutazen/gestion-citas-access-2007/issues) para ver una lista de las características propuestas y de los bugs conocidos.
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contribuciones
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Las contribuciones son lo que hace que la comunidad de "open source" sea un lugar increíble para aprender, inspirarse y crear. Cualquier contribución que se haga se **aprecia mucho**
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork el proyecto.
+2. Crear una nueva rama para la funcionalidad a añadir (`git checkout -b feature/AmazingFeature`)
+3. Haz "commit" de los cambios realizados (`git commit -m 'Add some AmazingFeature'`)
+4. Actualiza la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
 
 
 <!-- LICENSE -->
-## License
+## Licencia
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distrubuido bajo la licencia  MIT. Vea `LICENCIA` para más información.
 
 <!-- CONTACT -->
-## Contact
+## Contactos
 <p>
   Jeremy Camacho - https://www.linkedin.com/in/jeremycamacholugo/
 </p>
@@ -303,14 +327,14 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+## Conocimientos
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
 
-## Special thanks
+## Agradecimientos
 
-We want to thank to @othneildrew for share their template for this readme. 
+Quiero agredecer a @othneildrew por compartir la plantilla que se usó como base de este readme.
 
 <p align="center">
   https://github.com/othneildrew/Best-README-Template
