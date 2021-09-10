@@ -64,13 +64,13 @@
               <a href="#ver-citas-de-un-dia-en-concreto">Ver citas de un día en concreto</a>
             </li>
             <li>
-              <a href="#ver-citas-semana-anterior-o-posterior">Ver citas de la semana anterior o posterior</a>
+              <a href="#ver-citas-de-la-semana-anterior-o-posterior">Ver citas de la semana anterior o posterior</a>
             </li>
             <li>
-              <a href="#ver-citas-mes-anterior-o-posterior">Ver citas del mes anterior o posterior</a>
+              <a href="#ver-citas-del-mes-anterior-o-posterior">Ver citas del mes anterior o posterior</a>
             </li>
             <li>
-              <a href="#ver-citas-de-una-area-determinada">Ver citas de un área determinada.</a>
+              <a href="#ver-citas-de-un-area-determinada">Ver citas de un área determinada.</a>
             </li>
           </ul>
         </li>
@@ -90,73 +90,73 @@
           <a href="#buscar-cita">Buscar cita</a>
           <ul>
             <li>
-              <a href="#installation">Buscar por nombre</a>
+              <a href="#buscar-por-nombre">Buscar por nombre</a>
             </li>
             <li>
-              <a href="#installation">Buscar por apellidos</a>
+              <a href="#buscar-por-apellidos">Buscar por apellidos</a>
             </li>
             <li>
-              <a href="#installation">Buscar por DNI</a>
+              <a href="#buscar-por-DNI">Buscar por DNI</a>
             </li>
             <li>
-              <a href="#installation">Buscar por NIE</a>
+              <a href="#buscar-por-DNI">Buscar por NIE</a>
             </li>
             <li>
-              <a href="#installation">Buscar por pasaporte</a>
+              <a href="#buscar-por-pasaporte">Buscar por pasaporte</a>
             </li>
             <li>
-              <a href="#installation">Buscar por teléfono</a>
+              <a href="#buscar-por-teléfono">Buscar por teléfono</a>
             </li>
             <li>
-              <a href="#installation">Buscar por fecha</a>
+              <a href="#buscar-por-fecha">Buscar por fecha</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="#filter-results-by-type">Asignar asistencia</a>
+          <a href="#asignar-asistencia">Asignar asistencia</a>
         </li>
         <li>
-          <a href="#filter-results-by-category">Designar dia</a>
+          <a href="#designar-dia">Designar dia</a>
           <ul>
             <li>
-              <a href="#installation">Designar dia para atender citas</a>
+              <a href="#designar-dia-para-atender-citas">Designar dia para atender citas</a>
             </li>
             <li>
-              <a href="#installation">Designar dia como festivo</a>
+              <a href="#designar-dia-como-festivo">Designar dia como festivo</a>
             </li>
             <li>
-              <a href="#installation">Eliminar designación</a>
+              <a href="#eliminar-designación">Eliminar designación</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="#filter-results-by-ingredient">Reservar hora</a>
+          <a href="#reservar-hora">Reservar hora</a>
           <ul>
             <li>
-              <a href="#installation">Crear reserva</a>
+              <a href="#crear-reserva">Crear reserva</a>
             </li>
             <li>
-              <a href="#installation">Ver reserva</a>
+              <a href="#ver-reserva">Ver reserva</a>
             </li>
             <li>
-              <a href="#installation">Modificar reserva</a>
+              <a href="#modificar-reserva">Modificar reserva</a>
             </li>
             <li>
-              <a href="#installation">Eliminar reserva</a>
+              <a href="#eliminar-reserva">Eliminar reserva</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="#show-cocktail-information">Imprimir ficha de gestión de citas</a>
+          <a href="#imprimir-ficha-de-gestión-de-citas">Imprimir ficha de gestión de citas</a>
         </li>
       </ul>
     </li>
-    <li><a href="#roadmap">Cronología</a></li>
-    <li><a href="#contributing">Contribuciones</a></li>
-    <li><a href="#license">Licencia</a></li>
-    <li><a href="#contact">Contacto</a></li>
-    <li><a href="#acknowledgements">Conocimientos</a></li>
-    <li><a href="#special-thanks">Agradecimientos</a></li>
+    <li><a href="#cronología">Cronología</a></li>
+    <li><a href="#contribuciones">Contribuciones</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+    <li><a href="#contactis">Contacto</a></li>
+    <li><a href="#conocimientos">Conocimientos</a></li>
+    <li><a href="#agradecimientos">Agradecimientos</a></li>
   </ol>
 </details>
 
@@ -238,14 +238,40 @@ Al hacer clic, se nos muestra la pantalla desde donde podemos ver las citas regi
 
 Si se quiere ver las citas de un día en concreto, se puede utilizar el calendario que se encuentra en la parte superior de la izquierda de la pantalla en la que se muestran las citas. Este calendario cuenta tambien con dos controles que permiten seleccionar el mes y el año que se muestran en el calendario.
 
-![ver pantalla de citasl][ver-cita-3]
+![ver controles de calendariol][ver-cita-3]
 
 Si seleccionamos el mes y el año en los controles descritos anteriormente, el calendario cambiará para mostrar el mes del año indicado. Si hacemos clic en uno de los dias del calendario, se cambiarán las citas que se estaban mostrando para mostrar las citas de la semana al que pertenece el dia en el que se haya hecho clic en el calendario.
+
+![modificar controles de calendariol][ver-cita-4]
+
+#### Ver citas semana anterior o posterior
+
+#### Ver citas mes anterior o posterior
+
+#### Ver citas de una area determinada
+
+### Crear cita
+
+### Modificar cita
+
+### Eliminar cita
+
+### Buscar cita
+
+#### Buscar por nombre
+
+#### Buscar por DNI
+
+#### Buscar por NIE
+
+#### Buscar por pasaporte
+
+#### Buscar por teléfono
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/mutazen/Your-cocktail/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mutazen/gestion-citas-access-2007/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
@@ -272,7 +298,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
   Jeremy Camacho - https://www.linkedin.com/in/jeremycamacholugo/
 </p>
 <p>
-  Project Link: https://github.com/mutazen/Your-cocktail
+  Project Link: https://github.com/mutazen/gestion-citas-access-2007
 </p>
 
 
@@ -283,8 +309,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 * [GitHub Pages](https://pages.github.com)
 
 ## Special thanks
-
-This website initially was a result of an exercise of Reboot Academy's bootcamp (ed. May-Jul 2021) but we keep working on it, giving it more functionalities and making it better because we loved the idea and we used it to test the skills that we learned. So we want to thank our instructors for their support and their patience. Thank you guys, you are the best!
 
 We want to thank to @othneildrew for share their template for this readme. 
 
@@ -314,3 +338,5 @@ We want to thank to @othneildrew for share their template for this readme.
 [configuracion-3]: readme-images/configuracion/configuracion-3.png
 [ver-cita-1]: readme-images/ver-citas/ver-cita-1.png
 [ver-cita-2]: readme-images/ver-citas/ver-cita-2.png
+[ver-cita-3]: readme-images/ver-citas/ver-cita-3.png
+[ver-cita-4]: readme-images/ver-citas/ver-cita-4.png
