@@ -61,7 +61,7 @@
           <a href="#ver-citas">Ver citas</a>
           <ul>
             <li>
-              <a href="#ver-citas-de-un-dia-en-concreto">Ver citas de un día en concreto</a>
+              <a href="#ver-citas-de-un-día-en-concreto">Ver citas de un día en concreto</a>
             </li>
             <li>
               <a href="#ver-citas-de-la-semana-anterior-o-posterior">Ver citas de la semana anterior o posterior</a>
@@ -70,7 +70,7 @@
               <a href="#ver-citas-del-mes-anterior-o-posterior">Ver citas del mes anterior o posterior</a>
             </li>
             <li>
-              <a href="#ver-citas-de-un-area-determinada">Ver citas de un área determinada.</a>
+              <a href="#ver-citas-de-una-área-determinada">Ver citas de un área determinada</a>
             </li>
           </ul>
         </li>
@@ -96,10 +96,10 @@
               <a href="#buscar-por-apellidos">Buscar por apellidos</a>
             </li>
             <li>
-              <a href="#buscar-por-DNI">Buscar por DNI</a>
+              <a href="#buscar-por-dni">Buscar por DNI</a>
             </li>
             <li>
-              <a href="#buscar-por-DNI">Buscar por NIE</a>
+              <a href="#buscar-por-nie">Buscar por NIE</a>
             </li>
             <li>
               <a href="#buscar-por-pasaporte">Buscar por pasaporte</a>
@@ -116,13 +116,13 @@
           <a href="#asignar-asistencia">Asignar asistencia</a>
         </li>
         <li>
-          <a href="#designar-dia">Designar dia</a>
+          <a href="#designar-día">Designar dia</a>
           <ul>
             <li>
-              <a href="#designar-dia-para-atender-citas">Designar dia para atender citas</a>
+              <a href="#designar-día-para-atender-citas">Designar dia para atender citas</a>
             </li>
             <li>
-              <a href="#designar-dia-como-festivo">Designar dia como festivo</a>
+              <a href="#designar-día-como-festivo">Designar dia como festivo</a>
             </li>
             <li>
               <a href="#eliminar-designación">Eliminar designación</a>
@@ -154,7 +154,7 @@
     <li><a href="#cronología">Cronología</a></li>
     <li><a href="#contribuciones">Contribuciones</a></li>
     <li><a href="#licencia">Licencia</a></li>
-    <li><a href="#contactis">Contacto</a></li>
+    <li><a href="#contacto">Contacto</a></li>
     <li><a href="#conocimientos">Conocimientos</a></li>
     <li><a href="#agradecimientos">Agradecimientos</a></li>
   </ol>
@@ -232,33 +232,68 @@ Para poder ver las citas, partimos desde el menú principal de la solución. En 
 
 Al hacer clic, se nos muestra la pantalla desde donde podemos ver las citas registradas para la semana actual.
 
-![ver pantalla de citasl][ver-cita-2]
+![ver pantalla de citas][ver-cita-2]
 
 #### Ver citas de un día en concreto
 
 Si se quiere ver las citas de un día en concreto, se puede utilizar el calendario que se encuentra en la parte superior de la izquierda de la pantalla en la que se muestran las citas. Este calendario cuenta tambien con dos controles que permiten seleccionar el mes y el año que se muestran en el calendario.
 
-![ver controles de calendariol][ver-cita-3]
+![ver controles de calendario][ver-cita-3]
 
 Si seleccionamos el mes y el año en los controles descritos anteriormente, el calendario cambiará para mostrar el mes del año indicado. Si hacemos clic en uno de los dias del calendario, se cambiarán las citas que se estaban mostrando para mostrar las citas de la semana al que pertenece el dia en el que se haya hecho clic en el calendario.
 
-![modificar controles de calendariol][ver-cita-4]
+![modificar controles de calendario][ver-cita-4]
 
 #### Ver citas de la semana anterior o posterior
+Para poder ver las citas de la semana anterior o posterior, se puede hacer uso de los controles de la pantalla de las citas que se marcan en la siguiente imagen. Si se hace clic en el botón de la izquierda, se muestran las citas de la semana anterior y si se hace clic en el botón de la derecha, se muestra las citas de la semana posterior.
+
+![mostrar controles para ver citas semana anterior o posterior][ver-cita-5]
 
 #### Ver citas del mes anterior o posterior
 
-#### Ver citas de una area determinada
+Si se quiere ver las citas del mes anterior o posterior, se puede utilizar los controles que se encuentran a los lados del calendario de la parte superior derecha de la pantalla en la que se muestran las citas. Si se hace clic en el botón izquierdo, se muestran las citas de la semana a la que pertenece el dia seleccionado del mes anterior y si se hace clic en el botón derecho, se muestran las citas del mes posterior.  
+
+![mostrar controles para ver citas mes anterior o posterior][ver-cita-6]
+
+#### Ver citas de una área determinada
+
+Para ver las citas de un área determinada, se usa el control que acompaña a la etiqueta "Citas para". Al pulsar dicho control, se muestra una lista desplegable con todas las áreas que se gestionan. Si se pincha en en alguna, se cargarán las citas de la misma semana pertenecientes a la nueva área.
+
+![mostrar controles para ver citas de un área][ver-cita-7]
 
 ### Crear cita
 
+Si se quiere crear una nueva cita, se parte desde la pantalla en la que se muestran las citas en el que haya un día designado para poner citas. Para empezar a crear la cita, hacemos clic en uno de los recuadros blancos del dia asignado para citas.
+
+![empezar a crear una cita][crear-cita-1]
+
+Al hacer clic aparecerá una venta emergente para poner una nueva cita con la fecha del día seleccionado y la hora escogida. En esta pantalla, introducimos los datos del asistente de la cita. Como mínimo es necesario introducir un nombre, apellidos y un número de teléfono. Si introducimos un DNI o un NIE, no se podrá regitrar la cita hasta que estos tengan el formato correcto. Para poder terminar el proceso, hacemos clic en el botón "Guardar".
+
+![rellenar los datos de una cita][crear-cita-2]
+
+Una vez se ha creado la cita, esta aparecerá en el calendario, ocupando el recuadro en el que hemos hecho clic y mostrando el nombre, los apellidos y el primer número de teléfono que se ha introducido.
+
+![ver cita creada][crear-cita-3]
+
 ### Modificar cita
 
+Para modificar una cita, solo es necesario hacer clic en la cita a la que se quiera cambiar los datos desde la pantalla en la que se muestran las citas. Al hacer clic aparace una ventana emergente desde donde se puede realizar la modificación. Para poder guardar los cambios realizados, es necesario que la cita cuente como minimo con nombre, apellidos, un número de teléfono y que los DNI y NIE introducidos tengan un formato correcto. Y por último, hacemos clic en el botón "Actualizar" guardar los cambios.
+
+![modificar los datos de una cita][modificar-cita-1]
+
 ### Eliminar cita
+
+Si se quiere eliminar una cita, basta con hacer clic sobre la cita a eliminar desde la pantalla en la que se ven las citas. Al hacerlo, aparece una ventana emergente desde donde se cambia los datos de la cita. Si hacemos clic en el botón "Eliminar cita", saldrá otra ventana emergente donde se nos advierte que si aceptamos los datos se borrarán. Si dentro de esta ventana pulsamos el botón "Aceptar", la cita se eliminará y volveremos a la pantalla en la que se muestran las citas, donde no aparecerá la cita que hemos borrado.
+
+![borrar una cita][borrar-cita-1]
+
+### Copiar cita
 
 ### Buscar cita
 
 #### Buscar por nombre
+
+#### Buscar por apellidos
 
 #### Buscar por DNI
 
@@ -272,15 +307,15 @@ Si seleccionamos el mes y el año en los controles descritos anteriormente, el c
 
 ### Asignar asistencia
 
-### Designar dia
+### Designar día
 
-#### Designar dia para atender citas
+#### Designar día para atender citas
 
-#### Designar dia como festivo
+#### Designar día como festivo
 
-#### Elimnar designación
+#### Eliminar designación
 
-### Reserva hora
+### Reservar hora
 
 #### Crear reserva
 
@@ -317,7 +352,7 @@ Las contribuciones son lo que hace que la comunidad de "open source" sea un luga
 Distrubuido bajo la licencia  MIT. Vea `LICENCIA` para más información.
 
 <!-- CONTACT -->
-## Contactos
+## Contacto
 <p>
   Jeremy Camacho - https://www.linkedin.com/in/jeremycamacholugo/
 </p>
