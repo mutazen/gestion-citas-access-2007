@@ -136,10 +136,10 @@
               <a href="#crear-reserva">Crear reserva</a>
             </li>
             <li>
-              <a href="#ver-reserva">Ver reserva</a>
+              <a href="#ver-motivo-de-reserva">Ver motivo de reserva</a>
             </li>
             <li>
-              <a href="#modificar-reserva">Modificar reserva</a>
+              <a href="#modificar-motivo-de-reserva">Modificar motivo de reserva</a>
             </li>
             <li>
               <a href="#eliminar-reserva">Eliminar reserva</a>
@@ -354,26 +354,77 @@ Si queremos buscar una cita por fecha, partimos de la pantalla de buscar cita. E
 ![buscar cita por fecha][buscar-cita-9]
 
 ### Asignar asistencia
+Para registrar si un usuario a acudido a su cita o no, hay que empezar haciendo clic en la cita del usuario cuya asitencia queremos registrar. Al hacerlo, estaremos en la pantalla en la que se puede modificar los datos de la cita. En esta pantalla, utilizaremos los controles de asistencia que se marcan en la siguiente imagen.
+
+![ver controles de asistencia de cita][asistencia-cita-1]
+
+Si queremos que registrar que el usuario ha asistido a la cita, solo tenemos que hacer clic en el control que acompaña a la etiqueta "Asite" y después hacer clic en el botón "Actualizar cita". Al hacerlo, el color de fondo de la cita se pintará de color amarillo para mostrar que el usuario ha asistido a la cita.
+
+![ver cita cuyo usuario ha asistido a la cita][asistencia-cita-2]
+
+Si en cambio queremos registrar que el usuario no ha asistido a la cita, el procedimiento es el mismo que en el párrafo anterior, sólo que tenemos que hacer clic en el control que acompaña a la etiqueta "No asiste" y después hacer clic en el botón "Actualizar cita". Al hacer esto, el color del fondo de la cita se mostrará de color rojo para mostrar que el usuario no ha asistido a la cita.
+
+![ver cita cuyo usuario no ha asistido a la cita][asistencia-cita-3]
+
+Si por algún motivo, nos hemos equivocado al asignar la asitencia a la cita, podemos hacer clic en el botón de "Resetear asistencia" de la pantalla de edición de los datos de la cita y después hacer clic en el botón "Actualizar cita". Al hacerlo saldrá una pantalla emergente, que nos preguntará si queremos resetear la asitencia. Si hacemos clic en "Sí", la cita tendrá un fondo de color blanco para demostrar que no se asignado la asistencia a la cita.
 
 ### Designar día
 
+Para poder hacer la designación de un día, solo hay que hacer clic con el botón derecho del ratón sobre el dia que queremos cambiar la designación en la pantalla en la que se muestran las citas. Hecho esto, en el menú contextual seleccionaremos la opción "Día" y desde ahí podremos realizar las siguientes acciones.
+
+![mostrar el menú contextual para cambiar la asignación de un dia][asignacion-dia-1]
+
 #### Designar día para atender citas
+
+Para asignar un día como día para atender citas, dentro de la opción "Día" del menú contextual, hacemos clic en "Asignar cita". Al hacerlo, el fondo del día se pondrá de color verde para mostrar que es un dia en el que se pueden dar citas.
+
+![ver dia con asignación de citas][asignacion-dia-2]
 
 #### Designar día como festivo
 
+Para asignar un día como festivo, dentro de la opción "Día" del menú contextual, hacemos clic en "Asignar festivo". Al hacerlo, el fondo del día se pondrá de color rojo para mostrar que es un dia festivo.
+
+![ver dia festivo][asignacion-dia-3]
+
 #### Eliminar designación
 
+Para eliminar la asignación de un día, dentro de la opción "Día" del menú contextual, hacemos clic en "Borrar asignación". Al hacerlo, el fondo del día se pondrá de color blanco para mostrar que el dia no tienen asignación.
+
+![ver dia sin asignación][asignacion-dia-4]
+
 ### Reservar hora
+Si queremos reservar una hora para que, aunque el dia esté asignado para dar citas, no se puedan dar citas a esa hora, tenemos que hacer clic con el botón derecho del ratón sobre el recuadro que pertenece a la hora del día en el que queramos reservar la hora. Al hacerlo, se nos muestra un menú contextual y en él situaremos el cursor sobre la opción "Reservar hora" y a partir de aquí podremos realizar las siguientes acciones.
+
+![ver menú de reservar hora][reservar-hora-1]
 
 #### Crear reserva
+Para crear la reserva de la hora, hacemos clic "Reservar esta hora" en el submenú que se abre al seleccionar la opción "Reservar hora" del menú contextual. Al hacerlo, saldrá una ventana emergente que nos pedirá que introduzcamos el motivo por el que estamos realizando la reserva de la hora. Una vez introduzcamos el motivo, la hora quedará reservada y en el espacio en el que se mostrarían los datos del usuario de la cita aparecerá la frase "Hora reservada" y no se podrá crear una cita para esa hora.
 
-#### Ver reserva
+![ver hora reservada][reservar-hora-2]
 
-#### Modificar reserva
+#### Ver motivo de reserva
+Para poder ver el motivo que se ha dado al realizar una reserva de una hora, podemos hacer clic en el recuadro de la propia reserva. Al hacerlo, se mostrará una pantalla emergente que nos mostrará el motivo de la reserva.
+
+![ver motivo de la reserva][reservar-hora-3]
+
+#### Modificar motivo de reserva
+En caso de haberse equivocado al introducir el motivo de la reserva y querer cambiarlo sin perder la reserva de la hora, se puede hacer clic en "Modificar motivo" en el submenú de "Reservar hora" del menú contextual. Haciendo esto, aparecerá una ventana emergente que nos permitirá introducir el nuevo motivo y modificarlo sin perder la reserva.
+
+![modificando el motivo de la reserva][reservar-hora-4]
 
 #### Eliminar reserva
 
+Si se quiere eliminar una reserva, solo es necesario hacer clic en la opción "Anular reserva" en el submenú de "Reservar hora" del menú contextual. Con esto, la reserva se borra y se puede poner una cita en la hora reservada nuevamente.
+
+![eliminar reserva][reservar-hora-5]
+
 ### Imprimir ficha de gestión de citas
+
+Para imprimir una ficha con la que tener las citas asignadas para un día en concreto en un papel, podemos hacer uso de la función de imprimir ficha de gestión de citas. Para ello, debemos seleccionar el dia del queramos imprimir la ficha en el control de calendario de la parte superior derecha de la pantalla en la que se muestran las citas. Una vez hecho esto, hacemos clic en el botón "Imprimir ficha de gestión de citas" o en el botón "Imprimir ficha de gestión de citas sin teléfono", en función de lo que se desee.
+
+![controles para imprimir ficha][imprimir-ficha-1]
+
+Al hacer lo anterior, aparecerá una pantalla emergente mostrando una hoja con todas las citas para el día seleccionado, con algunos datos del usuario. Si se está de acuerdo con lo que pone la ficha, solo es necesario hacer clic con el botón derecho del ratón sobre la ficha y darle a la opción de "Imprimir" para poder empezar el proceso de impresión de la ficha.
 
 <!-- ROADMAP -->
 ## Cronología
