@@ -51,6 +51,17 @@
         </li>
         <li>
           <a href="#configuración">Configuración</a>
+          <ul>
+            <li>
+              <a href="#configurar-centro-de-confianza">Configurar centro de confianza</a>
+            </li>
+            <li>
+              <a href="#configurar-horas">Configurar horas</a>
+            </li>
+            <li>
+              <a href="#configurar-áreas">Configurar áreas</a>
+            </li>
+          </ul>
         </li>
       </ul>
     </li>
@@ -208,9 +219,14 @@ Tener instalado Microsoft Access 2007. No funciona con versiones posteriores de 
 
 ### Configuración
 
-Antes de abrir el ejecutable de este proyecto, es preciso añadir al centro de confianza de Access la ubicación desde donde se va ejecutar dicho archivo. Con esto se evita que se muestre cada vez que se acceda a la solución. A continuación se describe como realizar esta configuración.
+Antes de abrir el ejecutable de este proyecto, es preciso realizar una serie de configuraciones para adaptar el proyecto al lugar donde queremos que opere. A continuación se detellan las configuraciones a realizar. 
 
-1. Abrimos Access 2007 directamente o hacemos abrimos un archivo de access mientras pulsamos la tecla "Shift". En pantalla principal de Access, hacemos clic en el logo de Office de la parte superior izquierda de la pantalla y en la nueva pantalla, accemos clic en el botón "Opciones de Access".
+#### Configurar centro de confianza
+
+Configurando el centro de confianza de Access 2007 evitaremos que se muestre una notificación que nos pide permiso para poder acceder a los daros cada vez que se acceda a la solución. A continuación se describe como realizar esta configuración.
+
+
+1. Abrimos Access 2007 directamente o hacemos abrimos un archivo de access mientras pulsamos la tecla "Shift".  
 
 ![acceder a configuracion de access][configuracion-1]
 
@@ -221,6 +237,30 @@ Antes de abrir el ejecutable de este proyecto, es preciso añadir al centro de c
 3. En este otra pantalla, pinchamos en "Ubicaciones de confiaza" en la columna de la parte izquierda de la pantalla y en la parte derecha, comprobamos si ya está registrada el directorio desde donde ejecutaremos el proyecto. En caso negativo, podemos agregar la el directorio haciendo clic en el botón "Agregar nueva ubicación ...". Si se quiere ejecutar el archivo desde otro ordenador, es necesario marcar la opción "Permitir ubicaciones de confianza que están en red" y después agregar la ubicación del directorio en red. 
 
 ![agragar ubicacion del directorio del proyecto][configuracion-3]
+
+#### Configurar horas
+Con esta configuración adaptaremos las horas que gestiona la solución para poner citas. A continuación explicaremos como realizarla.
+
+
+1. Abrimos Access 2007 haciendo clic en el fichero del proyecto mientras pulsamos la tecla "Shift". Al hacerlo se nos muestra la siguiente pantalla donde tenemos que hacer doble clic en la tabla "HoraDia".
+
+![accediendo a la tabla de las horas][configuracion-4]
+
+2. En esta tabla podemos cambiar la horas de los dos turnos a nuestra elección, pero es obligatorio que ambos turnos tengan 7 horas asignadas. Para ello podemos hacer clic en cada hora de cada fila y modificarla.
+
+![modificando la tabla de las horas][configuracion-5]
+
+#### Configurar áreas
+Realizando esta configuración podremos adaptar las áreas que maneja el proyecto a la realidad donde queremos que trabaje. Para configurar las áreas seguimos los siguientes pasos.
+
+
+1. Abrimos Access 2007 haciendo clic en el fichero del proyecto mientras pulsamos la tecla "Shift". Al hacerlo se nos muestra la siguiente pantalla donde tenemos que hacer doble clic en la tabla "TipoCita".
+
+![accediendo a la tabla de tipoCita][configuracion-6]
+
+2. En esta tabla podemos el nombre de las áreas que ya tengamos o crear otras nuevas. Para ello podemos hacer clic en el nombre de cada área y modificarlo o crear una nueva, añadiendo una nueva fila.
+
+![modificando las áreas][configuracion-7]
 
 <!-- USAGE EXAMPLES -->
 ## Guía de uso
@@ -437,7 +477,7 @@ Vea [open issues](https://github.com/mutazen/gestion-citas-access-2007/issues) p
 
 Las contribuciones son lo que hace que la comunidad de "open source" sea un lugar increíble para aprender, inspirarse y crear. Cualquier contribución que se haga se **aprecia mucho**
 
-1. Fork el proyecto.
+1. Haz un fork el proyecto.
 2. Crear una nueva rama para la funcionalidad a añadir (`git checkout -b feature/AmazingFeature`)
 3. Haz "commit" de los cambios realizados (`git commit -m 'Add some AmazingFeature'`)
 4. Actualiza la rama (`git push origin feature/AmazingFeature`)
@@ -465,16 +505,22 @@ Distrubuido bajo la licencia  MIT. Vea `LICENCIA` para más información.
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
+* [SQL](https://support.microsoft.com/es-es/office/access-sql-conceptos-b%C3%A1sicos-vocabulario-y-sintaxis-444d0303-cde1-424e-9a74-e8dc3e460671)
+* [VBA](https://docs.microsoft.com/es-es/office/vba/library-reference/concepts/getting-started-with-vba-in-office)
+* [Microsoft Access](https://www.microsoft.com/es-es/microsoft-365/access)
 
 ## Agradecimientos
 
-Quiero agredecer a @othneildrew por compartir la plantilla que se usó como base de este readme.
+Agradecimiento a @othneildrew por compartir la plantilla que se usó como base de este readme.
 
 <p align="center">
   https://github.com/othneildrew/Best-README-Template
 </p>
 
-
+Agradecimiento Markus Gruber por el módulo para rescalar las ventanas de los formularios.
+<p align="center">
+  https://github.com/GruberMarkus/modScaleForm/blob/master/modScaleForm.bas
+</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
