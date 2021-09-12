@@ -450,13 +450,11 @@ Para poder ver el motivo que se ha dado al realizar una reserva de una hora, pod
 #### Modificar motivo de reserva
 En caso de haberse equivocado al introducir el motivo de la reserva y querer cambiarlo sin perder la reserva de la hora, se puede hacer clic en "Modificar motivo" en el submenú de "Reservar hora" del menú contextual. Haciendo esto, aparecerá una ventana emergente que nos permitirá introducir el nuevo motivo y modificarlo sin perder la reserva.
 
-![modificando el motivo de la reserva][reservar-hora-4]
 
 #### Eliminar reserva
 
 Si se quiere eliminar una reserva, solo es necesario hacer clic en la opción "Anular reserva" en el submenú de "Reservar hora" del menú contextual. Con esto, la reserva se borra y se puede poner una cita en la hora reservada nuevamente.
 
-![eliminar reserva][reservar-hora-5]
 
 ### Imprimir ficha de gestión de citas
 
@@ -465,6 +463,8 @@ Para imprimir una ficha con la que tener las citas asignadas para un día en con
 ![controles para imprimir ficha][imprimir-ficha-1]
 
 Al hacer lo anterior, aparecerá una pantalla emergente mostrando una hoja con todas las citas para el día seleccionado, con algunos datos del usuario. Si se está de acuerdo con lo que pone la ficha, solo es necesario hacer clic con el botón derecho del ratón sobre la ficha y darle a la opción de "Imprimir" para poder empezar el proceso de impresión de la ficha.
+
+![vista preliminar de la ficha][imprimir-ficha-2]
 
 <!-- ROADMAP -->
 ## Cronología
@@ -568,4 +568,19 @@ Agradecimiento Markus Gruber por el módulo para rescalar las ventanas de los fo
 [buscar-cita-7]: readme-images/buscar-citas/buscar-cita-7.png
 [buscar-cita-8]: readme-images/buscar-citas/buscar-cita-8.png
 [buscar-cita-9]: readme-images/buscar-citas/buscar-cita-9.png
+[asistencia-cita-1]: readme-images/asistencia-citas/asistencia-cita-1.png
+[asistencia-cita-2]: readme-images/asistencia-citas/asistencia-cita-2.png
+[asistencia-cita-3]: readme-images/asistencia-citas/asistencia-cita-3.png
+[asignacion-dia-1]: readme-images/asignacion-dia/asignacion-dia-1.png
+[asignacion-dia-2]: readme-images/asignacion-dia/asignacion-dia-2.png
+[asignacion-dia-3]: readme-images/asignacion-dia/asignacion-dia-3.png
+[asignacion-dia-4]: readme-images/asignacion-dia/asignacion-dia-4.png
+[reservar-hora-1]: readme-images/reservar-hora/reservar-hora-1.png
+[reservar-hora-2]: readme-images/reservar-hora/reservar-hora-2.png
+[reservar-hora-3]: readme-images/reservar-hora/reservar-hora-3.png
+[reservar-hora-4]: readme-images/reservar-hora/reservar-hora-4.png
+[reservar-hora-5]: readme-images/reservar-hora/reservar-hora-5.png
+[imprimir-ficha-1]: readme-images/imprimir-ficha/imprimir-ficha-1.png
+[imprimir-ficha-2]: readme-images/imprimir-ficha/imprimir-ficha-2.png
+
 
