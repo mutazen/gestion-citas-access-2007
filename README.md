@@ -289,21 +289,69 @@ Si se quiere eliminar una cita, basta con hacer clic sobre la cita a eliminar de
 
 ### Copiar cita
 
+Para copiar los datos de una cita y pegarlo en otro dia u hora, se hace clic con el botón derecho del ratón sobre la cita a copiar en la pantalla en la que se ven las citas. Al hacerlo, saldrá un menú contextual en el podemos hacer clic en la opción "Copiar cita". Si lo hacemos cargaremos los datos de la cita y podremos copiarla en cualquier otro lado.
+
+![copiar una cita][copiar-cita-1]
+
+Para pegar la cita que hemos seleccionado anteriormente, elegimos un recuadro en blanco de un dia que esté habilitado para poner cita y hacemos clic en el recuadro con el botón derecho de ratón. Al hacerlo, se mostrará un menú contextual y hacemos clic en la opción "Pegar cita".
+
+![pegar una cita][copiar-cita-2]
+
+Al hacerlo, los datos de la cita que estaban cargados se asignan al dia y la hora del recuadro. De esta forma, se ha creado una cita con los mismos datos que los de la cita que hemos copiado pero en la hora y dia pertencientes al recuadro que hemos seleccionado al pegar.  
+
+![ver cita pegada][copiar-cita-3]
+
 ### Buscar cita
+
+Para empezar a buscar citas, partimos desde la pantalla del menú principal, en ella pulsamos el botón de "Buscar citas".
+
+![empezando a buscar citas][buscar-cita-1]
+
+Al haber hecho clic, se mostrará una nueva venta en la que podremos buscar citas según diversos parámetros, ver sus resultados, ver los datos de la cita seleccionada o verla en el calendario.
+
+![ver pantalla de buscar cita][buscar-cita-2]
 
 #### Buscar por nombre
 
+Para poder buscar una cita por nombre, partimos de la pantalla de buscar cita. En ella, escribimos el nombre del usuario cuya citas estamos buscando en el recuadro que acompaña a la etiqueta de "Nombre" y pulsamos el botón "Buscar. Una vez hecho esto, aparecerá los resultados en la lista de la parte derecha de la pantalla.
+
+![buscar cita por nombre][buscar-cita-3]
+
 #### Buscar por apellidos
+
+Si queremos buscar una cita por apellidos, partimos de la pantalla de buscar cita. En ella, escribimos el nombre del usuario cuya citas estamos buscando en el recuadro que acompaña a la etiqueta de "Apellidos" y pulsamos el botón "Buscar. Una vez hecho esto, aparecerá los resultados en la lista de la parte derecha de la pantalla.
+
+![buscar cita por apellidos][buscar-cita-4]
 
 #### Buscar por DNI
 
+Si queremos buscar una cita por DNI, partimos de la pantalla de buscar cita. En ella, escribimos el dni del usuario cuya citas estamos buscando en el recuadro que acompaña a la etiqueta de "DNI" y pulsamos el botón "Buscar. Una vez hecho esto, aparecerá los resultados en la lista de la parte derecha de la pantalla.
+
+![buscar cita por dni][buscar-cita-5]
+
 #### Buscar por NIE
+
+Si queremos buscar una cita por NIE, partimos de la pantalla de buscar cita. En ella, escribimos el nie del usuario cuya citas estamos buscando en el recuadro que acompaña a la etiqueta de "NIE" y pulsamos el botón "Buscar. Una vez hecho esto, aparecerá los resultados en la lista de la parte derecha de la pantalla.
+
+![buscar cita por nie][buscar-cita-6]
 
 #### Buscar por pasaporte
 
+Si queremos buscar una cita por pasaporte, partimos de la pantalla de buscar cita. En ella, escribimos el pasaporte del usuario cuya citas estamos buscando en el recuadro que acompaña a la etiqueta de "Pasaporte" y pulsamos el botón "Buscar. Una vez hecho esto, aparecerá los resultados en la lista de la parte derecha de la pantalla.
+
+![buscar cita por pasaporte][buscar-cita-7]
+
 #### Buscar por teléfono
 
+Si queremos buscar una cita por teléfono, partimos de la pantalla de buscar cita. En ella, escribimos el teléfono del usuario cuya citas estamos buscando en el recuadro que acompaña a la etiqueta de "Teléfono" y pulsamos el botón "Buscar. Una vez hecho esto, aparecerá los resultados en la lista de la parte derecha de la pantalla.
+
+![buscar cita por teléfono][buscar-cita-8]
+
 #### Buscar por fecha
+
+Si queremos buscar una cita por fecha, partimos de la pantalla de buscar cita. En ella, podemos seleccionar una fecha en el recuadro que acompaña a la etiqueta "Desde", haciendo uso de un control de calendario o escribiendo la fecha directamente. También es posible acortar la búsqueda, indicando la fecha hasta donde quiere que se deje de buscar. Una vez introducidos los parámetros, hacemos clic en el botón "Buscar" y aparecerá los resultados en la lista de la parte derecha de la pantalla.
+
+![buscar cita por fecha][buscar-cita-9]
 
 ### Asignar asistencia
 
